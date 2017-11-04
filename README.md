@@ -7,9 +7,9 @@ easily be fixed by passing in arguments to call this file, or even better -- usi
 this information. Given another hour or two, I think I could make this happen, but not in the 195 minutes allotted. I
 prioritized my time to help finish the Upvote() method rather than that user experience.
 
-For the developer currently looking over my project, please forgive the sloppiness, but you can run my code by commenting
+For the developer currently looking over my project, (forgive the sloppiness), but you can run my code by commenting
 in/out the lines regarding "ConnectToDB", "CreateTable", "CreateAlarm", and "ViewAlarm". Also keep in mind you'll need the
-sqlite-jdbc-3.20.0.jar file (in this project) to be able to run the code properly. Also keep in mind the project is in
+sqlite-jdbc-3.20.0.jar file (in this project) to be able to run the code properly and that the project is in
 Java 8.
 
 One thing I also would've done with more time was create a Users table, so that Users could only upvote once. As of now,
@@ -18,8 +18,4 @@ any user can upvote an unlimited number of times.
 Another issue is security problems. This application does not take into consideration SQL Injection attackers. This
 issue could also easily be fixed by using Prepared Statements in SQL.
 
-And one final thing is that testing wasn't as vigorous as I would have liked it to be. I am at around 10 minutes and
-still need to commmit and push to Github, so I don't know how many tests will be done by the time this is submitted.
-
-I believe this is a really cool take-home project for intern candidates, and I intend to use this project for a small
-practice assignment in building an iOS app. :) Super cool stuff Handshake!
+And one final thing is that testing wasn't as vigorous as I would have liked it to be.
